@@ -1,10 +1,10 @@
 import React from 'react'
-import Togglebtn from './hooks/Togglebtn'; //Import Toggle Button
+import CustomizeBrand from "./hooks/findBrand"
 
 export default function App() {
   return(
-    <div>
-      <Togglebtn/> {/* Use toggleBTN */}
+    <div align="center">
+      <CustomizeBrand/>
     </div>
   )
 }
