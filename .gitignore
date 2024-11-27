@@ -22,6 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# file / folder
+# file / folder / picture
 
 /Lottie-animations
+
+/After.png
+
+/Before.png
