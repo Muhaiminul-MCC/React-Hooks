@@ -1,10 +1,10 @@
-import React from 'react'
-import CustomizeBrand from "./hooks/findBrand"
+import React from "react";
+import MaltipleStateVar from "./hooks/MaltipleStateVar";
 
 export default function App() {
-  return(
-    <div align="center">
-      <CustomizeBrand/>
+  return (
+    <div>
+      <MaltipleStateVar />
     </div>
-  )
+  );
 }
