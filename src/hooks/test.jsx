@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { TextField, Typography, Container } from '@mui/material';
+import React, { useState } from "react";
+import { TextField, Typography, Container } from "@mui/material";
 
 export default function Test() {
   const [name, setName] = useState("");
@@ -12,14 +12,14 @@ export default function Test() {
     <div>
       <Container align="center">
         <Typography variant="h1" fontSize="2rem">
-          Your name is {name || "?"} 
+          Your name is {name || "?"}
         </Typography>
         <TextField
           className="inputname"
           variant="outlined"
           label="Enter your name"
           value={name}
-          onChange={handleInputChange} 
+          onChange={handleInputChange}
         />
       </Container>
     </div>
