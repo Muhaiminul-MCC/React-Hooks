@@ -24,8 +24,8 @@ yarn-error.log*
 
 # file / folder / picture
 
-/Lottie-animations
+./Lottie-animations
 
-/After.png
+./After.png
 
-/Before.png
+./Before.png
