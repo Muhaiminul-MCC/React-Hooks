@@ -6,8 +6,12 @@ I will make a simple arrow function that update the variable
 
 # Before
 
-<img src="./After.png" alt="Before PNG"/>
+<img src="./Before.png" alt="Before Information"/>
 
 # After
 
-<img src="./Before.png" alt="After clicking Button"/>
+<img src="./After.png" alt="After clicking [ update Info ]"/>
+
+# Preview information
+
+<img src="./Previous.png" alt="After clicking [ Previous Info ]"/>
