@@ -8,12 +8,16 @@ export default function MaltipleStateVar() {
     year: "2024",
     color: "Black",
   });
-  const updatefun = () => {
+  const updateFun = () => {
     setCar((prev) => {
       return { ...prev, color: "Blue", year: "2025" };
     });
   };
-
+  const prevFun = () => {
+    setCar((prev) => {
+      return { ...prev, color: "Black", year: "2024" };
+    });
+  };
   return (
     <div>
       <Box my={"5rem"}>
@@ -34,11 +38,17 @@ export default function MaltipleStateVar() {
               Car color: {car.color}, This car made on {car.year}.
             </Typography>
           </Stack>
-          <Button variant="contained" onClick={updatefun}>
-            Blue
-          </Button>
+          <Stack spacing={2} direction={"row"}>
+            <Button variant="contained" onClick={updateFun}>
+              Update info
+            </Button>
+            <Button variant="outlined" onClick={prevFun}>
+              Previous info
+            </Button>
+          </Stack>
         </Box>
       </Box>
+      <Box align="center" gap={"3rem"}></Box>
     </div>
   );
 }
