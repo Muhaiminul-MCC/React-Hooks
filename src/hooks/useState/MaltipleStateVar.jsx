@@ -5,17 +5,17 @@ import React, { useState } from "react";
 export default function MaltipleStateVar() {
   const [car, setCar] = useState({
     brand: "Ferrari",
-    year: "2024",
+    year: 2024,
     color: "Black",
   });
   const updateFun = () => {
     setCar((prev) => {
-      return { ...prev, color: "Blue", year: "2025" };
+      return { ...prev, color: "Blue", year: 2025 };
     });
   };
   const prevFun = () => {
     setCar((prev) => {
-      return { ...prev, color: "Black", year: "2024" };
+      return { ...prev, color: "Black", year: 2024 };
     });
   };
   return (
@@ -35,7 +35,7 @@ export default function MaltipleStateVar() {
               My {car.brand}
             </Typography>
             <Typography fontSize={"2rem"} variant="body1">
-              Car color: {car.color}, This car made on {car.year}.
+              Car Color: {car.color}, This car made on {car.year}.
             </Typography>
           </Stack>
           <Stack spacing={2} direction={"row"}>
@@ -48,7 +48,6 @@ export default function MaltipleStateVar() {
           </Stack>
         </Box>
       </Box>
-      <Box align="center" gap={"3rem"}></Box>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import MaltipleStateVar from "./hooks/MaltipleStateVar";
+import IncreaseNum from "./hooks/useEffect/IncreaseNum";
 
 export default function App() {
   return (
     <div>
-      <MaltipleStateVar />
+      <IncreaseNum />
     </div>
   );
 }
