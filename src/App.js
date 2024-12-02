@@ -1,10 +1,10 @@
 import React from "react";
-import IncreaseNum from "./hooks/useEffect/IncreaseNum";
+import Variable from "./hooks/ReactDev/variable";
 
 export default function App() {
   return (
     <div>
-      <IncreaseNum />
+      <Variable />
     </div>
   );
 }
