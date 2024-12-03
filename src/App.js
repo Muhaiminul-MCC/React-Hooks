@@ -1,10 +1,10 @@
 import React from "react";
-import Variable from "./hooks/ReactDev/variable";
+import TernaryOperator from "./hooks/ReactDev/TernaryOperator";
 
 export default function App() {
   return (
     <div>
-      <Variable />
+      <TernaryOperator />
     </div>
   );
 }
